@@ -1,0 +1,81 @@
+@media all and (max-width: 958px) and (min-width: 790px){
+	nav{
+		width: 68%;
+	}
+	#body1{
+		width: 76%;
+	}
+}
+
+@media all and (max-width: 790px) and (min-width: 500px){
+	nav{
+		width: 65%;
+	}
+	#body1{
+		width: 76%;
+	}
+
+	.cuerpo2{
+		width: 96%;
+	}
+}
+
+
+/*ADMINISTRAR*/
+
+@media all and (max-width: 1023px) and (min-width: 940px){
+	#a_ver{
+	    padding: 5px 130px 6px 130px;
+	}
+
+	#a_crear{
+	    padding: 5px 127px 6px 127px;
+	}
+}
+
+@media all and (max-width: 939px) and (min-width: 500px){
+	#a_ver{
+	    padding: 5px 110px 6px 110px;
+	}
+
+	#a_crear{
+	    padding: 5px 105px 6px 105px;
+	}
+
+	#boton{
+		width: 47%;
+	}
+
+	#boton-activo{
+		width: 47%;
+	}
+}
+
+/*ADMINISTAR :VER USUARIO*/
+
+@media all and (max-width: 995px) and (min-width: 685px){
+	.admin_datos{
+		width: 40%;
+	}
+}
+
+@media all and (max-width: 952px) and (min-width: 909px){
+	.admin_datos{
+		width: 40%;
+	}
+	
+	#link{
+		width: 27%;
+	}
+}
+
+@media all and (max-width: 908px) and (min-width: 309px){
+	.admin_datos{
+		width: 34%;
+	}
+	
+	#link{
+		width: 29%;
+	}
+}
+

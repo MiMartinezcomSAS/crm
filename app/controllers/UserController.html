@@ -1,0 +1,10 @@
+<?php
+
+class UserController extends BaseController {
+    public function motrarUsuarios(){
+    	$usuarios = user::all();
+    	return view::make('login', array('usuarios' => $usuarios));
+    }
+
+
+}
